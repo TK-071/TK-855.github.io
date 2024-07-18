@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coração com Texto</title>
+    <style>
+        body {
+            background-color: black; /* Fundo preto */
+            color: white; /* Texto branco */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            font-family: Arial, sans-serif;
+            text-align: center;
+        }
+        .heart-container {
+            position: relative;
+            display: inline-block;
+        }
+        .heart {
+            font-size: 100px; /* Tamanho da fonte para o coração */
+            color: white; /* Coração branco */
+            line-height: 0.8;
+            white-space: pre; /* Preserva espaços em branco e quebras de linha */
+        }
+        .text {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            font-size: 24px; /* Tamanho do texto */
+            font-weight: bold;
+            z-index: 1;
+        }
+    </style>
+</head>
+<body>
+    <div class="heart-container">
+        <div class="heart">
+            <pre>
+    
+            </pre>
+        </div>
+        <div class="text">
+            <p>Ainda bem que você aceitou, se não iria ter um homicidio</p>
+        </div>
+    </div>
+</body>
+</html>
